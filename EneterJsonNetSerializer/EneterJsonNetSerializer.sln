@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EneterJsonNetSerializerNet35", "EneterJsonNetSerializer\EneterJsonNetSerializerNet35.csproj", "{074F6AED-1785-4AC5-AE98-36F071333BDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EneterJsonNetSerializerNet40", "EneterJsonNetSerializer\EneterJsonNetSerializerNet40.csproj", "{1252BA53-23F9-4E2C-9527-18904DA17D9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EneterJsonNetSerializer_UTests", "EneterJsonNetSerializer_UTests\EneterJsonNetSerializer_UTests.csproj", "{2847CAE2-5B1B-4C75-BBDC-1FD81DECE847}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EneterJsonNetSerializerNet45", "EneterJsonNetSerializer\EneterJsonNetSerializerNet45.csproj", "{CED7C3DA-0B30-42E3-AD8A-BBBAFF5749C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{074F6AED-1785-4AC5-AE98-36F071333BDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{074F6AED-1785-4AC5-AE98-36F071333BDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{074F6AED-1785-4AC5-AE98-36F071333BDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{074F6AED-1785-4AC5-AE98-36F071333BDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1252BA53-23F9-4E2C-9527-18904DA17D9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1252BA53-23F9-4E2C-9527-18904DA17D9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1252BA53-23F9-4E2C-9527-18904DA17D9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1252BA53-23F9-4E2C-9527-18904DA17D9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2847CAE2-5B1B-4C75-BBDC-1FD81DECE847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2847CAE2-5B1B-4C75-BBDC-1FD81DECE847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2847CAE2-5B1B-4C75-BBDC-1FD81DECE847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2847CAE2-5B1B-4C75-BBDC-1FD81DECE847}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CED7C3DA-0B30-42E3-AD8A-BBBAFF5749C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CED7C3DA-0B30-42E3-AD8A-BBBAFF5749C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CED7C3DA-0B30-42E3-AD8A-BBBAFF5749C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CED7C3DA-0B30-42E3-AD8A-BBBAFF5749C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
