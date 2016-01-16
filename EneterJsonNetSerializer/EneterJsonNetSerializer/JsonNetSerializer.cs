@@ -7,10 +7,8 @@
 
 
 using Eneter.Messaging.DataProcessing.Serializing;
-using System;
-using System.Linq;
-using System.Collections.Generic;
 using Newtonsoft.Json;
+using System;
 
 namespace Eneter.JsonNet
 {
