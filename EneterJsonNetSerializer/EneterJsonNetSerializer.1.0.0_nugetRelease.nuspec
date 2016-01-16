@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Eneter.JsonNet.Serializer</id>
+        <version>1.0.0</version>
+        <title>Eneter JsonNet Serializer</title>
+        <authors>Ondrej Uzovic</authors>
+        <licenseUrl>https://www.apache.org/licenses/LICENSE-2.0.html</licenseUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>This library integrates Json.NET serializer created by James Newton-King into Eneter Messaging Framework. It allows to serialize/deserialize messages to/from JSON faster than default .NET serializer DataContractJsonSerializer.</description>
+        <summary />
+        <copyright>Ondrej Uzovic</copyright>
+        <tags>json eneter serialization deserialization</tags>
+        <dependencies>
+            <dependency id="Eneter.Messaging.Framework" version="7.0.0" />
+            <dependency id="Newtonsoft.Json" version="7.0.1" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="EneterJsonNetSerializer\bin\Net35\Release\Eneter.JsonNet.Serializer.dll" target="lib\net35\Eneter.JsonNet.Serializer.dll" />
+        <file src="EneterJsonNetSerializer\bin\Net35\Release\Eneter.JsonNet.Serializer.pdb" target="lib\net35\Eneter.JsonNet.Serializer.pdb" />
+        <file src="EneterJsonNetSerializer\bin\Net35\Release\Eneter.JsonNet.Serializer.XML" target="lib\net35\Eneter.JsonNet.Serializer.XML" />
+        <file src="EneterJsonNetSerializer\bin\Net40\Release\Eneter.JsonNet.Serializer.dll" target="lib\net40\Eneter.JsonNet.Serializer.dll" />
+        <file src="EneterJsonNetSerializer\bin\Net40\Release\Eneter.JsonNet.Serializer.pdb" target="lib\net40\Eneter.JsonNet.Serializer.pdb" />
+        <file src="EneterJsonNetSerializer\bin\Net40\Release\Eneter.JsonNet.Serializer.XML" target="lib\net40\Eneter.JsonNet.Serializer.XML" />
+        <file src="EneterJsonNetSerializer\bin\Net45\Release\Eneter.JsonNet.Serializer.dll" target="lib\net45\Eneter.JsonNet.Serializer.dll" />
+        <file src="EneterJsonNetSerializer\bin\Net45\Release\Eneter.JsonNet.Serializer.pdb" target="lib\net45\Eneter.JsonNet.Serializer.pdb" />
+        <file src="EneterJsonNetSerializer\bin\Net45\Release\Eneter.JsonNet.Serializer.XML" target="lib\net45\Eneter.JsonNet.Serializer.XML" />
+    </files>
+</package>
